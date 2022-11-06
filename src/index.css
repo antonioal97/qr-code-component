@@ -1,0 +1,40 @@
+:root{
+  --mobile: 340px;
+  /* cores */
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  /* Tipografia */
+
+  --font: 'Outfit', sans-serif;
+  /* --paragraph: 400 .94rem/ 18px 'Outfit', sans-serif;
+  --title: 700 1.375rem/ 26px 'Outfit', sans-serif; */
+}
+
+body{
+  background: var(--light-gray);
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+.font{
+  --_weight: 400;
+  --_size: .94rem/ 18px;
+  color: var(--grayish-blue);
+  font: var(--_weight) var(--_size) var(--font);
+}
+
+img{
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
+
+h1,
+p{
+  margin: 0;
+  padding: 0;
+}
